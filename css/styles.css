@@ -11,3 +11,9 @@ h1, ul {
     font-size: 30px;
     color: white;
 }
+
+.lasagna {
+    background-color: red;
+    color: yellow;
+    font-size: 25px;
+}
