@@ -15,5 +15,13 @@ h1, ul {
 .lasagna {
     background-color: red;
     color: yellow;
+}
+
+.cherry-cheesecake {
+    background-color: beige;
+    color: red;
+}
+
+.lasagna, .cherry-cheesecake {
     font-size: 25px;
 }
