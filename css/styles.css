@@ -22,6 +22,11 @@ h1, ul {
     color: red;
 }
 
-.lasagna, .cherry-cheesecake {
+.lasagna, .cherry-cheesecake, .french-toast {
     font-size: 25px;
+}
+
+.french-toast {
+    background-color: yellow;
+    color: brown
 }
