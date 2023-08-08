@@ -1,10 +1,13 @@
-body {
-    background-color: blue;
-    font-family:'Times New Roman', Times, serif
+html, body {
+    height: 100%;
 }
 
-h1, ul {
-    text-align: center;
+body {
+    background: linear-gradient(180deg, blue, red, red, white);
+    font-family:'Times New Roman', Times, serif;
+    max-width: 800px;
+    background-repeat: no-repeat;
+    margin: auto;
 }
 
 .recipes {
@@ -13,20 +16,54 @@ h1, ul {
 }
 
 .lasagna {
-    background-color: red;
     color: yellow;
 }
 
 .cherry-cheesecake {
-    background-color: beige;
-    color: red;
+    color: white;
 }
 
 .lasagna, .cherry-cheesecake, .french-toast {
     font-size: 25px;
+    background-repeat: repeat;
 }
 
 .french-toast {
-    background-color: yellow;
-    color: brown
+    color: #C68E17;
+}
+
+span {
+    display: block;
+    margin: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+h1,li {
+    text-align: center;
+}
+
+.content p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.content img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.content span {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h1 {
+   box-sizing: border-box;
+   padding: 20px;
+   margin-left: 40px;
 }
